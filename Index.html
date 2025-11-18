@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>RAGNAR STORE</title>
+</head>
+<body>
+    <!--PROMOTION-->
+          <div class="border-b border-gray-200 bg-gray-100 px-4 py-2 text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+  <p class="text-center font-medium">
+    Promo hingga 20%
+    <a href="#" class="inline-block underline">hanya untuk hari ini!</a>
+  </p>
+</div>
+    <!--END PROMOTION-->
+           
+    <!--NAVBAR-->
+           <header class="bg-gray-900">
+  <div class="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+    <a class="block text-teal-600 dark:text-teal-300" href="#">
+      <span class="sr-only">Home</span>
+      
+    </a>
+
+    <div class="flex flex-1 items-center justify-end md:justify-between">
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-sm">
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="Index.html">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75" href="about-us.html">
+              About us
+            </a>
+          </li>
+
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <div class="sm:flex sm:gap-4">
+          <a class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500" href="cara-belanja.html">
+            Cara belanja
+          </a>
+
+          <a class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700 dark:hover:bg-teal-500" href="contact-us.html">
+            Chat admin
+          </a>
+        </div>
+
+        <button class="block rounded-sm bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden dark:bg-gray-800 dark:text-white dark:hover:text-white/75">
+          <span class="sr-only">Toggle menu</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+    <!--END NAVBAR-->
+
+    <!--CALL TO ACTION-->
+
+           <section class="bg-gray-50 dark:bg-gray-900">
+  <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h2 class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-white">
+        Halo, Selamat datang di Ragnar Store. 
+      </h2>
+
+      <p class="hidden text-gray-500 sm:mt-4 sm:block dark:text-gray-400">
+        Kami menyediakan berbagai macam style pakaian untuk Anda. Setiap koleksi kami dirancang dengan memperhatikan tren terkini, kenyamanan, serta kualitas bahan terbaik. Dengan berbagai pilihan warna, model, dan ukuran, kami berkomitmen memberikan pengalaman berbelanja yang memuaskan bagi setiap pelanggan.
+      </p>
+    </div>
+
+    <div class="mx-auto mt-8 max-w-xl">
+      <form action="#" class="sm:flex sm:gap-4">
+        <div class="sm:flex-1">
+
+          <input type="text" id="searchInput" onkeyup="searchProduct()" placeholder="Jaket outdoor" class="w-full rounded-md border-gray-200 bg-white p-3 shadow-xs transition focus:border-white focus:ring-2 focus:ring-teal-700 focus:outline-hidden dark:border-gray-700 dark:bg-gray-800 dark:text-white" fdprocessedid="q4ejuq">
+        </div>
+
+        <button type="submit" class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-teal-700 px-5 py-3 text-white transition focus:ring-2 focus:ring-teal-400 focus:outline-hidden sm:mt-0 sm:w-auto" fdprocessedid="66ss0q">
+          <span class="text-sm font-medium"> Cari </span>
+
+          <svg class="size-5 shadow-sm rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+  
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span>
+    <!--END CALL TO ACTION-->
+
+    <!--PRODUCT LIST-->
+    <div id="productList" class=" grid grid-cols-3 gap-4 max-w-7xl mx-auto py-4">
+        <a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Jas Sports Trainer" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Jas Sports Trainer
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 999.000</p>
+  </div>
+</a>
+
+   <a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Premium jaket outdoor" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1548883354-94bcfe321cbb?q=80&w=1861&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1548883354-94bcfe321cbb?q=80&w=1861&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Premium Jaket outdoor
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 1.499.000</p>
+  </div>
+</a>
+
+ <a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Sepatu Nike SuperRep Go" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Sepatu Nike SuperRep Go
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 715.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Jaket kulit Brown country" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Jaket kulit Brown country
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 2.999.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Hoodie tommorow" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1680292783974-a9a336c10366?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1680292783974-a9a336c10366?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+       Hoodie tommorow
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 899.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Baju kasual pria LINEN SHIRT" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://images.unsplash.com/photo-1740711152088-88a009e877bb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://images.unsplash.com/photo-1740711152088-88a009e877bb?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+     Baju kasual pria LINEN SHIRT
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 599.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Kacamata Yellow man's" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://plus.unsplash.com/premium_photo-1707932495000-5748b915e4f2?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://plus.unsplash.com/premium_photo-1707932495000-5748b915e4f2?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Kacamata Yellow man's
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 399.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk Sweater zipper" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://plus.unsplash.com/premium_photo-1727967291564-aa94bd08cf46?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://plus.unsplash.com/premium_photo-1727967291564-aa94bd08cf46?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+      Sweater zipper
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 1.190.000</p>
+  </div>
+</a>
+
+<a href="https://wa.me/6281271187727?text=Ragnar Store, saya mau beli produk T-shirt Unisex" class="group block overflow-hidden product-item">
+  <div class="relative h-[350px] sm:h-[450px]">
+    <img src="https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <img src="https://plus.unsplash.com/premium_photo-1727942419701-0428352a21e1?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+  </div>
+
+  <div class="relative bg-white pt-3">
+    <h3 class="text-sm text-gray-700 group-hover:underline group-hover:underline-offset-4">
+        Baju T-shirt Unisex
+    </h3>
+
+    <p class="mt-1.5 tracking-wide text-gray-900">Rp 199.000</p>
+  </div>
+</a>
+
+    </div>
+    <!--END PRODUCT LIST-->
+
+    <!--FOOTER-->
+    <footer class="bg-gray-50">
+  <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <div class="flex justify-center text-teal-700 sm:justify-start font-bold">
+        RAGNAR STORE
+      </div>
+
+      <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+        Copyright © 2025. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+    <!--END FOOTER-->
+<script>
+        function searchProduct() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let productContainer = document.getElementById('productList');
+            let products = productContainer.getElementsByClassName('product-item');
+
+            for (let i = 0; i < products.length; i++) {
+                let productNameElement = products[i].getElementsByTagName('h3')[0];
+                if (productNameElement) {
+                    let productName = productNameElement.textContent || productNameElement.innerText;
+                    if (productName.toLowerCase().indexOf(input) > -1) {
+                        products[i].style.display = "";
+                    } else {
+                        products[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
